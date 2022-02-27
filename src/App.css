@@ -1,38 +1,119 @@
-.App {
+img {
+  width: 400px;
+}
+.caja {
+  user-select: none;
+}
+.cajaWrap {
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.cajaSumador__input {
+  color: orangered;
+  width: 100px;
+  line-height: 100px;
+  margin: 6px;
   text-align: center;
+  border-radius: 8px;
+  border: 1px dotted darkred;
+  outline: none;
+  font-size: 4rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cajaSumador {
+  font-size: 3rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.cajaSumador_boton {
+  font-size: 2rem;
+  padding: 5px 15px;
+  color: darkred;
+}
+.rojo {
+  color: red;
+  margin: 0px;
+}
+.verde {
+  color: green;
+}
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.conversor input {
+  font-family: "Montserrat";
+  color: blueviolet;
+  width: 150px;
+  line-height: 60px;
+  text-align: right;
+  border-radius: 8px;
+  border: 1px dotted darkmagenta;
+  outline: none;
+  font-size: 2.5rem;
+}
+
+.conversor label {
+  font-family: "Montserrat";
+  display: block;
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.rey {
   color: white;
+  padding: 2px 15px 20px;
+  margin-bottom: 10px;
+  width: 47%;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.imagenCambiar {
+  width: 80%;
+}
+.cajaCentral {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reyMap {
+  /* width: 400px; */
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+#root .actividad {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+#root .actividad2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#root .actividad4 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.numero {
+  user-select: none;
+  font-size: 2em;
+}
+
+.imagenEmpleado {
+  width: 15%;
 }
